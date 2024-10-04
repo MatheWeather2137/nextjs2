@@ -9,6 +9,7 @@ export default function Links(){
         <Link className="text-red-300" href="/strona3">Strona3</Link>
         <Link className="text-blue-400" href="/strona4">Strona4</Link>
         <Link className="text-gray-500" href="/strona5">Strona5</Link>
+        <Link className="text-purple-700" href="/strona6">Strona6</Link>
         </div>
     )
 }
