@@ -19,8 +19,6 @@ export default function Home() {
         <Namelist key={idx} imie={osoba.imie} ok={osoba.ok} kolor="text-black"/>
       )) 
     }
-
-    <Link href="/strona1">Strona 1</Link>
     </div>
   );
 }
