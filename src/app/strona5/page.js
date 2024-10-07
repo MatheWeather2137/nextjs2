@@ -10,7 +10,7 @@ export default function Strona5(){
     }
     return(
         <div className="flex flex-col justify-center items-center h-screen w-full">
-            <input type="text" value={input} onChange={(e)=> setInput(e.target.value)}></input>
+            <input className="text-black" type="text" value={input} onChange={(e)=> setInput(e.target.value)}></input>
             <button onClick={dodaj}>Dodaj</button>
             <ul>
                 {
